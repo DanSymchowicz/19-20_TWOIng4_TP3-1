@@ -11,7 +11,10 @@ class Comment extends React.Component {
     render() {
         return (
             <div ClassName= 'comment'>
-                <p>Name : {this.props.profil.Comment}</p>
+                <p>Comment : {this.props.profil.Comment}</p>
+                <button onClick={this.props.handleClick}>
+                    Super
+                </button>
             </div>
         );
     }
